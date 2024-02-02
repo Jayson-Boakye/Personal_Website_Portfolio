@@ -1,0 +1,56 @@
+/* universal styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html {
+    font-size: 16px;
+}
+
+
+/* font-family: 'Chivo', sans-serif; */
+
+header {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 1.875rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.5625rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.intro h1 {
+    font-size: 6.25rem;
+}
+
+.intro img {
+    height: 9.375rem;
+    width: 9.375rem;
+    border-radius: 50%;
+}
