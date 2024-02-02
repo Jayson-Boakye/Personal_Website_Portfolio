@@ -6,49 +6,73 @@
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@400;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
+        <div class="nav-wrapper">
         <h2 class="logo">Jayson Boakye</h2>
-        <ul>
-            <li>About Me</li>
-            <li>Projects</li>
-            <li>Skills</li>
-            <li>Contact</li>
-        </ul>
+            <ul>
+                <li><a class="nav-link" href="#about">About Me</a></li>
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-link" href="#skills">Skills</a></li>
+                <li><a class="nav-link contact" href="">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <header>
+    <header id="about">
         <div id="container">
             <div class="intro">
                 <h1>Hey!</h1>
                 <h1>I'm</h1>
-                <img src="image.jpg" alt="avatar">
+                <img src="image.jpg" alt="avatar">                  
                 <h1>Jayson.</h1>
             </div>
             <p>A determined coder who is on track to become a competent web developer soon.
-                I am currently undertaking the Codecademy full stack engineer path, 
-                which has enabled me to learn intriguing concepts and 
-                languages such as HTML, CSS, JavaScript, Command Line etc.</p>
+            I am currently undertaking the Codecademy full stack engineer path, 
+            which has enabled me to learn intriguing concepts and 
+            languages such as HTML, CSS, JavaScript, Command Line etc.</p>
         </div>
     </header>
 
     <div id="projects">
         <h2>Projects</h2>
-        <h3>Company Home Page</h3>
+        <ul>
+            <li>Company Home Page</li>
+        </ul>
         <div class="img-holder">
             <img src="project1.png" alt="Express Company Page">
         </div>
-        <h3>Fotomatic</h3>
+        <ul>
+            <li>Fotomatic</li>
+        </ul>
         <div class="img-holder">
             <img src="project2.png" alt="Fotomatic Page">
         </div>
-        <h3>Teacozy</h3>
+        <ul>
+            <li>Teacozy</li>
+        </ul>
         <div class="img-holder">
             <img src="project3.png" alt="Teacozy Page">
         </div>
     </div>
+
+    <div id="skills">
+        <h2>Skills</h2>
+        <div class="skills-wrapper">
+            <img src="html.png" alt="HTML svg">
+            <img src="css-3.png" alt="CSS svg">
+            <img src="java-script.png" alt="JavaScript svg">
+            <img src="git-logo.png" alt="Git svg">
+            <img src="github.png" alt="Github svg">
+            <img src="command-line.png" alt="Command Line svg">
+        </div>
+    </div>
+
+    <footer>
+        <p>Made with <span>♥️</span> in Milton Keynes</p>
+    </footer>
 
     <script src="main.js"></script>
 </body>
