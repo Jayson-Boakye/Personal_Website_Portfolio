@@ -53,15 +53,15 @@ header {
     text-align: center;
     width: 70%;
     margin: 0 auto;
-    height: 40.625rem;
+    height: 37.5rem;
     position: relative;
     top: 3rem;
     background-color: aquamarine;
 }
 
-.container {
+#container {
     position: relative;
-    top: 25%;
+    top: 20%;
 }
 
 .intro {
@@ -81,8 +81,39 @@ header {
     border-radius: 50%;
 }
 
-.container p {
+#container p {
     font-weight: 25rem;
-    font-size: 1.7rem;
-    padding-top: 2rem;
+    font-size: 2rem;
+    padding-top: 2.5rem;
+}
+
+#projects {
+    position: relative;
+    top: 3rem;
+    padding-left: 4rem;
+    padding-bottom: 4rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: bisque;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+}
+
+#projects h3 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+#projects .img-holder {
+    height: 12.5rem;
+    width: 25rem;
+    overflow: hidden;
+}
+
+.img-holder img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
