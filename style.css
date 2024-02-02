@@ -16,15 +16,18 @@ html {
 
 /* font-family: 'Chivo', sans-serif; */
 
-header {
-    font-family: 'Roboto', sans-serif;
-}
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem 1.875rem;
+    /* margin: 1rem 1.875rem; */
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    position: fixed;
+    top: 1rem;
+    left: 4%;
+    z-index: 1;
 }
 
 nav ul {
@@ -36,6 +39,14 @@ nav ul {
 
 nav ul li {
     list-style: none;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    top: 23rem;
 }
 
 .intro {
