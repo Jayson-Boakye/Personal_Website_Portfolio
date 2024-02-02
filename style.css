@@ -50,6 +50,11 @@ nav {
     text-decoration: none;
 }
 
+.nav-link:hover {
+    color: #000;
+    background-color: #F3E4DB;
+    padding: 0.5rem 0.75rem;
+}
 .contact {
     color: #000;
     background-color: #F3E4DB;
@@ -65,7 +70,6 @@ nav h2 {
 nav ul li {
     list-style: none;
 }
-
 
 header {
     font-family: 'Roboto', sans-serif;
@@ -85,7 +89,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .intro h1 {
@@ -101,7 +105,7 @@ header {
 
 #container p {
     font-weight: 25rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding-top: 2.5rem;
     color: #F3E4DB;
 }
@@ -131,10 +135,18 @@ header {
     color: #000;
 }
 
+#projects ul li:hover {
+    cursor: pointer;
+}
+
 #projects .img-holder {
     height: 18.75rem;
     width: 37.5rem;
     overflow: hidden;
+}
+
+#projects .img-holder {
+    display: none;
 }
 
 .img-holder img {
