@@ -24,10 +24,13 @@ nav {
     /* margin: 1rem 1.875rem; */
     font-family: 'Roboto', sans-serif;
     width: 90%;
+    height: 2rem;
+    padding: 1rem;
     position: fixed;
-    top: 1rem;
+    top: 0;
     left: 4%;
     z-index: 1;
+    background-color: aqua;
 }
 
 nav ul {
@@ -37,16 +40,28 @@ nav ul {
     gap: 1.5625rem;
 }
 
+nav h2 {
+    font-size: 1.2rem;
+}
+
 nav ul li {
     list-style: none;
 }
 
 header {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
     width: 70%;
     margin: 0 auto;
+    height: 40.625rem;
     position: relative;
-    top: 23rem;
+    top: 3rem;
+    background-color: aquamarine;
+}
+
+.container {
+    position: relative;
+    top: 25%;
 }
 
 .intro {
@@ -61,7 +76,13 @@ header {
 }
 
 .intro img {
-    height: 9.375rem;
-    width: 9.375rem;
+    height: 7.5rem;
+    width: 7.5rem;
     border-radius: 50%;
+}
+
+.container p {
+    font-weight: 25rem;
+    font-size: 1.7rem;
+    padding-top: 2rem;
 }
