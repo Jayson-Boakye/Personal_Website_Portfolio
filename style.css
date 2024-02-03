@@ -11,6 +11,10 @@
 
 html {
     font-size: 16px;
+    /* background-color: #000; */
+}
+
+body {
     background-color: #000;
 }
 
@@ -120,6 +124,41 @@ nav ul li {
     }
 }
 
+main {
+    position: relative;
+    top: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+main h2 {
+    color: #F3E4DB;
+    margin-left: 2.8rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+main p {
+    color: #F3E4DB;
+    margin-left: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+.icons-contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 2.8rem;
+    gap: 0 2rem;
+}
+
+/* main mobile */
+@media only screen and (max-width: 480px) {
+    main {
+        width: 90%;
+    }
+}
+
 
 header {
     font-family: 'Roboto', sans-serif;
@@ -128,6 +167,7 @@ header {
     height: 50rem;
     position: relative;
     top: 3rem;
+    background-color: #000;
 }
 
 #container {
@@ -158,6 +198,33 @@ header {
     padding-top: 2.5rem;
     color: #F3E4DB;
     line-height: 1.5;
+}
+
+/* header large screen */
+@media only screen and (min-width: 1990px) {
+    header {
+        width: 55%;
+    }
+}
+
+
+/* header large screen */
+@media only screen and (min-width: 1610px) {
+    header {
+        width: 60%;
+    }
+}
+
+/* header small laptop */
+@media only screen and (max-width: 950px) {
+    .intro h1 {
+        font-size: 5rem;
+    }
+
+    .intro img {
+        height: 6.25rem;
+        width: 6.25rem;
+    }
 }
 
 /* header tablet */
@@ -270,6 +337,7 @@ header {
     padding: 4rem 0 0 4rem;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 4rem;
+    background-color: #000;
 }
 
 #skills h2 {
